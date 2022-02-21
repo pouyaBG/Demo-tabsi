@@ -79,6 +79,10 @@ h2 {
   white-space: nowrap;
   font-size: 1.4rem;
 }
+.btn-one:hover {
+  box-shadow: inset 10px 10px 20px rgb(212, 0, 0);
+  transform: scale(0.95);
+}
 
 .btn--primary {
   background-color: var(--color-primary);
@@ -514,6 +518,9 @@ textarea {
 
 .main-header {
   background-color: var(--color-navbar);
+  z-index: 10;
+  position: fixed;
+  width: 100%;
 }
 .nav {
   display: flex;
@@ -835,7 +842,7 @@ textarea {
   }
 }
 .block-heading {
-  margin-top: 6rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
 }
 
